@@ -4,7 +4,7 @@ Mã bộ ảnh: **G04** · Hình thức: cá nhân
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|
-| Nguyễn Thị Minh Trang | 2A202603107 | có | Lê Hoàng Nam (G04) | 9 dòng |
+| Nguyễn Thị Minh Trang | 2A202603107 | có | Đỗ Phương Mạnh (2A202603148 - G04) | 9 dòng |
 
 Ca hai bạn vẫn không thống nhất và đã hỏi coach (ghi tên ảnh + đối tượng):
 
@@ -13,7 +13,7 @@ Ca hai bạn vẫn không thống nhất và đã hỏi coach (ghi tên ảnh + 
 ## Cá nhân
 
 ### NguyenThiMinhTrang-2A202603107
-- Phần mình làm: Tự gán toàn bộ 22 ảnh (16 ảnh OMS và 6 ảnh DMS), xuất file và chạy kiểm tra tự động `cabin_check.py`, đối chiếu diff với bạn Lê Hoàng Nam và ghi nhận nhật ký bất đồng.
+- Phần mình làm: Tự gán toàn bộ 22 ảnh (16 ảnh OMS và 6 ảnh DMS), xuất file và chạy kiểm tra tự động `cabin_check.py`, đối chiếu diff với bạn Đỗ Phương Mạnh và ghi nhận nhật ký bất đồng.
 - Điều mình học được hôm nay:
   1. Hiểu sâu sắc hệ quy chiếu trong gán nhãn xe hơi: ghế gọi theo chiều xe chạy, mắt/tay gọi theo cơ thể người.
   2. Sự khác biệt giữa ảnh hồng ngoại thực tế (NIR của Drive&Act) với ảnh mô phỏng hồng ngoại (IR-sim của SVIRO).
