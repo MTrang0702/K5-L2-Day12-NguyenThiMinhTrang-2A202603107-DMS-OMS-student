@@ -1,0 +1,8 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Dây an toàn không gắn trong mô phỏng SVIRO; màu sắc túi xách ở ghế giữa bị mất trên IR-sim so với RGB",seatbelt / object.type,"seatbelt giữ not_worn/unknown (không đoán worn); object nhận diện bằng hình dáng là bag"
+S03_ir,IR_sim,"Ảnh RGB chụp cảnh đêm rất tối (mean 10.7; 82.9% pixel tối) không thấy rõ vật ở ghế giữa; IR-sim làm rõ vật thể",object.type,"RGB khó phân biệt, IR-sim thấy rõ cốc có quai nên gán type=cup ở ghế rear_middle"
+S08_ir,IR_sim,"RGB quá tối (mean 9.3; 85.0% dark) làm chìm cơ thể hành khách ghế rear_right; IR-sim tái hiện rõ viền thân người và ghế trẻ em",person / child_seat,"IR-sim giúp vẽ box sát mép hơn; thuộc tính seatbelt vẫn giữ not_worn"
+D01,real_IR,"Camera NIR đặt ở cột A chiếu xiên; tài xế cúi đầu nghiêng sang phải làm sống mũi che khuất mắt trái",face.eye_left / face13,"eye_left gán unknown (không đoán); các điểm left_eye_* và mouth_left bật cờ occluded=1"
+D02,real_IR,"Tài xế đeo kính cận trong suốt; dưới ánh sáng NIR tròng kính không bị loá mờ, vẫn thấy khe mắt bên trong",face.glasses / eye_state,"glasses gán clear; eye_left và eye_right đều thấy mở nên gán open"
+D04,real_IR,"Tài xế cầm điện thoại áp tai trái; cạnh máy và bàn tay thấy rõ dưới ánh sáng hồng ngoại",phone.state / hand.whose,"phone gán state=held; tay trái gán whose=driver, side=left, on_wheel=no"
+D05,real_IR,"Tài xế cầm chai nước bằng nhựa trong suốt phản xạ chùm sáng NIR; tay trái vươn lên vô lăng",hand.on_wheel,"Chai nước không gán phone/object (theo quy tắc DMS 4.2); tay trái gán side=left, on_wheel=yes"
