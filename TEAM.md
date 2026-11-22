@@ -4,7 +4,7 @@ Mã bộ ảnh: **G04** · Hình thức: cá nhân
 
 | Họ tên | MSSV | Đã gán đủ 22 ảnh? | Review chéo với (peer diff) | Số dòng disagreement đã xử lý |
 |---|---|---|---|---|
-| Nguyễn Thị Minh Trang | 2A202603107 | có | Đỗ Phương Mạnh (2A202603148 - G04) | 9 dòng |
+| Nguyễn Thị Minh Trang | 2A202603107 | có | Đỗ Phương Mạnh (2A202603148) | 9 dòng |
 
 Ca hai bạn vẫn không thống nhất và đã hỏi coach (ghi tên ảnh + đối tượng):
 
