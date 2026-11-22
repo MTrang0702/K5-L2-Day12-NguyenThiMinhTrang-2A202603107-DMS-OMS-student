@@ -1,7 +1,10 @@
 image,label,field,issue,mine,peer,verdict,guideline_rule,action
-S01_rgb.png,child_seat,seat,khác giá trị (IoU=0.91),rear_right,rear_left,mine,4.4-3,Peer sửa thành rear_right (camera nhìn về sau xe nên bên trái ảnh là ghế phải của xe)
-S02_rgb.png,person,seatbelt,khác giá trị (IoU=0.94),not_worn,worn_correct,mine,3 / 4.7,Peer sửa thành not_worn (ảnh mô phỏng SVIRO không có ai thắt dây an toàn)
-S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Peer bổ sung box object type=cup ở ghế rear_middle (hiện rõ trên IR-sim)
-D01.png,face,eye_left,khác giá trị (IoU=0.88),unknown,closed,mine,4.4-1 / 4.5,Peer sửa thành unknown (mặt cúi nghiêng bị sống mũi che khuất mắt trái không thấy khe mắt)
-D05.png,hand,on_wheel,khác giá trị (IoU=0.84),yes,no,mine,4.7,Peer sửa thành yes (bàn tay trái đang vịn lên vành vô lăng)
-D06.png,person,seatbelt,khác giá trị (IoU=0.92),unknown,not_worn,mine,4.7,Giữ unknown (tài xế đang cầm chốt thao tác cài dây - đang thắt dở theo mục 4.7)
+S01_rgb.png,child_seat,occupied,khác giá trị (IoU=0.93),unknown,yes,mine,4.8,"Peer sửa thành unknown (Guideline 4.8 cấm dùng occupied=yes, dùng yes làm script báo 8 lỗi ERROR)"
+D04.png,phone,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.7,Peer bổ sung box phone state=held (tài xế đang cầm điện thoại áp vào tai trái)
+S03_rgb.png,infant_seat,facing,khác giá trị (IoU=0.64),rear,front,mine,4.8,Peer sửa facing thành rear (nôi em bé luôn lắp quay về phía sau xe để an toàn cho cổ trẻ)
+S08_rgb.png,person,seatbelt,khác giá trị (IoU=0.96),not_worn,unknown,mine,3 / 4.7,"Peer sửa thành not_worn (ảnh SVIRO không có ai thắt dây an toàn, thấy rõ ngực vai không có dây)"
+D02.png,hand,side,khác giá trị (IoU=0.60),right,left,mine,4.7,"Peer sửa thành right (bàn tay phải theo cơ thể tài xế, không gọi theo bên trái ảnh)"
+D04.png,hand,on_wheel,khác giá trị (IoU=0.76),no,unknown,mine,3 / 4.7,"Peer sửa thành no (xe thử nghiệm tự hành, tay tài xế áp tai không chạm vô lăng)"
+S06_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.3 / 4.5,Peer bổ sung box face cho hành khách ngồi ghế sau (thấy rõ mặt)
+D06.png,person,seatbelt,khác giá trị (IoU=0.71),worn_correct,unknown,peer,4.7,"Mình sửa thành unknown theo bạn (tài xế đang thao tác thắt dở chốt dây, theo mục 4.7 quy định ghi unknown)"
+D01.png,face13,mouth_left.occluded,khác cờ,0 (outside=1),1 (outside=0),ambiguous,4.6,Giữ nguyên cả hai (góc nghiêng khó phân định giữa ngoài mặt outside và bị má che occluded)
